@@ -31,3 +31,4 @@ C:\Git\CryptoÐ\obj\Debug\net8.0\CryptoÐ.pdb
 C:\Git\CryptoÐ\obj\Debug\net8.0\CryptoÐ.genruntimeconfig.cache
 C:\Git\CryptoÐ\obj\Debug\net8.0\ref\CryptoÐ.dll
 C:\Git\CryptoÐ\obj\Debug\net8.0\CryptoÐ.sourcelink.json
+C:\Git\CryptoÐ\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
