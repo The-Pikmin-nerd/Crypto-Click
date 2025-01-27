@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{6F64AABD-3229-4AA6-A56B-5A2021D732B8}|Crypto\u00D0.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6F64AABD-3229-4AA6-A56B-5A2021D732B8}|Crypto\u00D0.csproj|c:\\git\\crypto\u00F0\\components\\pages\\component.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F64AABD-3229-4AA6-A56B-5A2021D732B8}|Crypto\u00D0.csproj|solutionrelative:components\\pages\\component.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6F64AABD-3229-4AA6-A56B-5A2021D732B8}|Crypto\u00D0.csproj|c:\\git\\crypto\u00F0\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6F64AABD-3229-4AA6-A56B-5A2021D732B8}|Crypto\u00D0.csproj|solutionrelative:components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -27,6 +31,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Component.razor",
+              "DocumentMoniker": "C:\\Git\\Crypto\u00D0\\Components\\Pages\\Component.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Component.razor",
+              "ToolTip": "C:\\Git\\Crypto\u00D0\\Components\\Pages\\Component.razor",
+              "RelativeToolTip": "Components\\Pages\\Component.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-27T21:15:44.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Counter.razor",
               "DocumentMoniker": "C:\\Git\\Crypto\u00D0\\Components\\Pages\\Counter.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Counter.razor",
@@ -45,7 +62,7 @@
               "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
               "ToolTip": "C:\\Git\\Crypto\u00D0\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-27T20:31:06.375Z",
               "EditorCaption": ""
