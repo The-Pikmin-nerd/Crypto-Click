@@ -1,0 +1,7 @@
+C:\Git\CryptoÐ\obj\Release\net8.0\PubTmp\Out\CryptoÐ.exe
+C:\Git\CryptoÐ\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Git\CryptoÐ\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Git\CryptoÐ\obj\Release\net8.0\PubTmp\Out\CryptoÐ.dll
+C:\Git\CryptoÐ\obj\Release\net8.0\PubTmp\Out\CryptoÐ.deps.json
+C:\Git\CryptoÐ\obj\Release\net8.0\PubTmp\Out\CryptoÐ.runtimeconfig.json
+C:\Git\CryptoÐ\obj\Release\net8.0\PubTmp\Out\CryptoÐ.pdb

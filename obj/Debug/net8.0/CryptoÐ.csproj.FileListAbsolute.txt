@@ -25,9 +25,9 @@ C:\Git\CryptoÐ\obj\Debug\net8.0\staticwebassets\msbuild.build.CryptoÐ.props
 C:\Git\CryptoÐ\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CryptoÐ.props
 C:\Git\CryptoÐ\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CryptoÐ.props
 C:\Git\CryptoÐ\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Git\CryptoÐ\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Git\CryptoÐ\obj\Debug\net8.0\CryptoÐ.dll
 C:\Git\CryptoÐ\obj\Debug\net8.0\refint\CryptoÐ.dll
 C:\Git\CryptoÐ\obj\Debug\net8.0\CryptoÐ.pdb
 C:\Git\CryptoÐ\obj\Debug\net8.0\CryptoÐ.genruntimeconfig.cache
 C:\Git\CryptoÐ\obj\Debug\net8.0\ref\CryptoÐ.dll
+C:\Git\CryptoÐ\obj\Debug\net8.0\CryptoÐ.sourcelink.json
