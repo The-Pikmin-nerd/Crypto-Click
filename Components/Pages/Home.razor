@@ -1,0 +1,26 @@
+﻿@page "/"
+@rendermode InteractiveServer
+<PageTitle>Home</PageTitle>
+<!-- From Uiverse.io by milegelu --> 
+<p role="status">Current count: @currentCount</p>
+
+<div>
+  <button class="button"@onclick="IncrementCount">
+    <img
+      src="https://cryptologos.cc/logos/dogecoin-doge-logo.png?v=040" 
+      alt="icon"                         
+      height="32"
+      width="32"
+      style="vertical-align: middle; marg   in-right: 5px;" />
+    Dogecoin
+  </button>
+</div>
+<Component />
+@code {
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+}
