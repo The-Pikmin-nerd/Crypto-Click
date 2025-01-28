@@ -1,8 +1,12 @@
 ﻿@page "/"
+
 @rendermode InteractiveServer
+<!-- From Uiverse.io by SelfMadeSystem -->
+
+
 <PageTitle>Home</PageTitle>
 <!-- From Uiverse.io by milegelu --> 
-<p role="status">Doge Walet: @currentCount</p>
+<p role="status">Doge Wallet: @currentCount</p>
 <p role="status">Doge Per Click: 1 </p>
 <p role="status">0 Ð/s</p>
 <div>
@@ -10,9 +14,9 @@
     <img
       src="https://cryptologos.cc/logos/dogecoin-doge-logo.png?v=040" 
       alt="icon"                         
-      height="64"
-      width="64"
-      style="vertical-align: middle; marg in-right: 32px;" />
+      height="128"
+      width="128"
+      style="vertical-align: middle; marg in-right: 64px;" />
     Dogecoin
   </button>
 </div>
@@ -20,8 +24,64 @@
 @code {
     private int currentCount = 0;
 
-    private void IncrementCount()
+    [Inject]
+    private IJSRuntime JSRuntime { get; set; }
+
+    private async Task IncrementCount()
     {
-        currentCount++;
+        currentCount++;  // Incrémenter le compteur local
+
+        // Vérifier si la valeur du cookie est plus grande
+        string savedCount = await JSRuntime.InvokeAsync<string>("getCookie", "currentCount");
+
+        if (!string.IsNullOrEmpty(savedCount) && int.TryParse(savedCount, out int savedValue))
+        {
+            // Si la valeur du cookie est plus grande, mettre à jour currentCount
+            if (savedValue > currentCount)
+            {
+                currentCount = savedValue;
+            }
+        }
+
+        // Sauvegarder la valeur actuelle dans un cookie
+        await JSRuntime.InvokeVoidAsync("setCookie", "currentCount", currentCount.ToString(), 100); // Sauvegarde pour 100 jours les coockie se perimes 
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            // Au premier rendu, on récupère la valeur du cookie et on initialise currentCount
+            string savedCount = await JSRuntime.InvokeAsync<string>("getCookie", "currentCount");
+            if (!string.IsNullOrEmpty(savedCount) && int.TryParse(savedCount, out int savedValue))
+            {
+                currentCount = savedValue;  // Charger la valeur du cookie si elle est présente
+            }
+        }
     }
 }
+
+<script>
+    // Fonction pour sauvegarder un cookie
+    function setCookie(name, value, days) {
+        let expires = "";
+        if (days) {
+            const date = new Date();
+            date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + (value || "") + expires + "; path=/";
+    }
+
+    // Fonction pour récupérer un cookie
+    function getCookie(name) {
+        const nameEQ = name + "=";
+        const cookies = document.cookie.split(';');
+        for (let i = 0; i < cookies.length; i++) {
+            let c = cookies[i];
+            while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+        }
+        return null;
+    }
+</script>
