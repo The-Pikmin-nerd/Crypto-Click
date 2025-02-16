@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "57c5VGmKnszXJ8SbkBgpTh8hXA4Vwrg+jrGwkRXlIqQ=",
+  "Hash": "B4iSZlnyxp4ReCVlcoI4sHywUgl+wL7tETIKayegTDE=",
   "Source": "CryptoÐ",
   "BasePath": "_content/CryptoÐ",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "CryptoÐ\\wwwroot",
       "Source": "CryptoÐ",
-      "ContentRoot": "C:\\Git\\CryptoÐ\\wwwroot\\",
+      "ContentRoot": "C:\\GIT\\Crypto-Click\\wwwroot\\",
       "BasePath": "_content/CryptoÐ",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Git\\CryptoÐ\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CryptoÐ.styles.css",
+      "Identity": "C:\\GIT\\Crypto-Click\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CryptoÐ.styles.css",
       "SourceId": "CryptoÐ",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Git\\CryptoÐ\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\GIT\\Crypto-Click\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/CryptoÐ",
       "RelativePath": "CryptoÐ#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "cIrr6B5EnmacZ+sc1waGDnZ9Xyd/4n0dEvfoQaMlvMc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Git\\CryptoÐ\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CryptoÐ.styles.css"
+      "OriginalItemSpec": "C:\\GIT\\Crypto-Click\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CryptoÐ.styles.css"
     },
     {
-      "Identity": "C:\\Git\\CryptoÐ\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CryptoÐ.bundle.scp.css",
+      "Identity": "C:\\GIT\\Crypto-Click\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CryptoÐ.bundle.scp.css",
       "SourceId": "CryptoÐ",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Git\\CryptoÐ\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\GIT\\Crypto-Click\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/CryptoÐ",
       "RelativePath": "CryptoÐ#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "cIrr6B5EnmacZ+sc1waGDnZ9Xyd/4n0dEvfoQaMlvMc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Git\\CryptoÐ\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CryptoÐ.bundle.scp.css"
+      "OriginalItemSpec": "C:\\GIT\\Crypto-Click\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CryptoÐ.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Git\\CryptoÐ\\wwwroot\\app.css",
+      "Identity": "C:\\GIT\\Crypto-Click\\wwwroot\\app.css",
       "SourceId": "CryptoÐ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Git\\CryptoÐ\\wwwroot\\",
+      "ContentRoot": "C:\\GIT\\Crypto-Click\\wwwroot\\",
       "BasePath": "_content/CryptoÐ",
       "RelativePath": "app#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Git\\CryptoÐ\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\GIT\\Crypto-Click\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "CryptoÐ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Git\\CryptoÐ\\wwwroot\\",
+      "ContentRoot": "C:\\GIT\\Crypto-Click\\wwwroot\\",
       "BasePath": "_content/CryptoÐ",
       "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -94,17 +94,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "26jzr8lg67",
-      "Integrity": "yrY0PGWx1Zcr4Z9ePZbdapYw3CUkDICblN6RZ/9pBkw=",
+      "Fingerprint": "o1dcgte8mm",
+      "Integrity": "9K51Ok3b+bG69OhxEkQoRbq+7poWMfTHF0xwFazhgHU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Git\\CryptoÐ\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\GIT\\Crypto-Click\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "CryptoÐ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Git\\CryptoÐ\\wwwroot\\",
+      "ContentRoot": "C:\\GIT\\Crypto-Click\\wwwroot\\",
       "BasePath": "_content/CryptoÐ",
       "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Git\\CryptoÐ\\wwwroot\\favicon.png",
+      "Identity": "C:\\GIT\\Crypto-Click\\wwwroot\\favicon.png",
       "SourceId": "CryptoÐ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Git\\CryptoÐ\\wwwroot\\",
+      "ContentRoot": "C:\\GIT\\Crypto-Click\\wwwroot\\",
       "BasePath": "_content/CryptoÐ",
       "RelativePath": "favicon#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -146,7 +146,7 @@
   "Endpoints": [
     {
       "Route": "app.css",
-      "AssetFile": "C:\\Git\\CryptoÐ\\wwwroot\\app.css",
+      "AssetFile": "C:\\GIT\\Crypto-Click\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -167,7 +167,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 27 Jan 2025 20:15:10 GMT"
+          "Value": "Sun, 16 Feb 2025 18:51:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -183,7 +183,7 @@
     },
     {
       "Route": "app.da95v2qkru.css",
-      "AssetFile": "C:\\Git\\CryptoÐ\\wwwroot\\app.css",
+      "AssetFile": "C:\\GIT\\Crypto-Click\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -204,7 +204,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 27 Jan 2025 20:15:10 GMT"
+          "Value": "Sun, 16 Feb 2025 18:51:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -227,53 +227,8 @@
       ]
     },
     {
-      "Route": "bootstrap/bootstrap.min.26jzr8lg67.css",
-      "AssetFile": "C:\\Git\\CryptoÐ\\wwwroot\\bootstrap\\bootstrap.min.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "162714"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yrY0PGWx1Zcr4Z9ePZbdapYw3CUkDICblN6RZ/9pBkw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 14:22:04 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "26jzr8lg67"
-        },
-        {
-          "Name": "label",
-          "Value": "bootstrap/bootstrap.min.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-yrY0PGWx1Zcr4Z9ePZbdapYw3CUkDICblN6RZ/9pBkw="
-        }
-      ]
-    },
-    {
       "Route": "bootstrap/bootstrap.min.css",
-      "AssetFile": "C:\\Git\\CryptoÐ\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "C:\\GIT\\Crypto-Click\\wwwroot\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -282,7 +237,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "162714"
+          "Value": "162720"
         },
         {
           "Name": "Content-Type",
@@ -290,11 +245,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yrY0PGWx1Zcr4Z9ePZbdapYw3CUkDICblN6RZ/9pBkw=\""
+          "Value": "\"9K51Ok3b+bG69OhxEkQoRbq+7poWMfTHF0xwFazhgHU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 14:22:04 GMT"
+          "Value": "Sun, 16 Feb 2025 18:51:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -304,13 +259,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-yrY0PGWx1Zcr4Z9ePZbdapYw3CUkDICblN6RZ/9pBkw="
+          "Value": "sha256-9K51Ok3b+bG69OhxEkQoRbq+7poWMfTHF0xwFazhgHU="
         }
       ]
     },
     {
       "Route": "bootstrap/bootstrap.min.css.map",
-      "AssetFile": "C:\\Git\\CryptoÐ\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "C:\\GIT\\Crypto-Click\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -331,7 +286,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 14:22:04 GMT"
+          "Value": "Sun, 16 Feb 2025 18:51:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -347,7 +302,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.omg9jqlriq.map",
-      "AssetFile": "C:\\Git\\CryptoÐ\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "C:\\GIT\\Crypto-Click\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -368,7 +323,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 28 Jan 2025 14:22:04 GMT"
+          "Value": "Sun, 16 Feb 2025 18:51:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -391,8 +346,53 @@
       ]
     },
     {
+      "Route": "bootstrap/bootstrap.min.o1dcgte8mm.css",
+      "AssetFile": "C:\\GIT\\Crypto-Click\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9K51Ok3b+bG69OhxEkQoRbq+7poWMfTHF0xwFazhgHU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 18:51:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o1dcgte8mm"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9K51Ok3b+bG69OhxEkQoRbq+7poWMfTHF0xwFazhgHU="
+        }
+      ]
+    },
+    {
       "Route": "CryptoÐ.bundle.scp.css",
-      "AssetFile": "C:\\Git\\CryptoÐ\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CryptoÐ.bundle.scp.css",
+      "AssetFile": "C:\\GIT\\Crypto-Click\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CryptoÐ.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -413,7 +413,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 27 Jan 2025 20:15:59 GMT"
+          "Value": "Sun, 16 Feb 2025 18:51:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -429,7 +429,7 @@
     },
     {
       "Route": "CryptoÐ.chq27n2xei.bundle.scp.css",
-      "AssetFile": "C:\\Git\\CryptoÐ\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CryptoÐ.bundle.scp.css",
+      "AssetFile": "C:\\GIT\\Crypto-Click\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CryptoÐ.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -450,7 +450,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 27 Jan 2025 20:15:59 GMT"
+          "Value": "Sun, 16 Feb 2025 18:51:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -474,7 +474,7 @@
     },
     {
       "Route": "CryptoÐ.chq27n2xei.styles.css",
-      "AssetFile": "C:\\Git\\CryptoÐ\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CryptoÐ.styles.css",
+      "AssetFile": "C:\\GIT\\Crypto-Click\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CryptoÐ.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -495,7 +495,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 27 Jan 2025 20:15:59 GMT"
+          "Value": "Sun, 16 Feb 2025 18:51:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -519,7 +519,7 @@
     },
     {
       "Route": "CryptoÐ.styles.css",
-      "AssetFile": "C:\\Git\\CryptoÐ\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CryptoÐ.styles.css",
+      "AssetFile": "C:\\GIT\\Crypto-Click\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CryptoÐ.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -540,7 +540,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 27 Jan 2025 20:15:59 GMT"
+          "Value": "Sun, 16 Feb 2025 18:51:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -556,7 +556,7 @@
     },
     {
       "Route": "favicon.ifv42okdf2.png",
-      "AssetFile": "C:\\Git\\CryptoÐ\\wwwroot\\favicon.png",
+      "AssetFile": "C:\\GIT\\Crypto-Click\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -577,7 +577,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 27 Jan 2025 20:15:10 GMT"
+          "Value": "Sun, 16 Feb 2025 18:51:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -601,7 +601,7 @@
     },
     {
       "Route": "favicon.png",
-      "AssetFile": "C:\\Git\\CryptoÐ\\wwwroot\\favicon.png",
+      "AssetFile": "C:\\GIT\\Crypto-Click\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -622,7 +622,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 27 Jan 2025 20:15:10 GMT"
+          "Value": "Sun, 16 Feb 2025 18:51:37 GMT"
         },
         {
           "Name": "Cache-Control",

@@ -1,23 +1,23 @@
 {
   "Files": [
     {
-      "Id": "C:\\Git\\CryptoÐ\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CryptoÐ.bundle.scp.css",
+      "Id": "C:\\GIT\\Crypto-Click\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CryptoÐ.bundle.scp.css",
       "PackagePath": "staticwebassets\\CryptoÐ.chq27n2xei.bundle.scp.css"
     },
     {
-      "Id": "C:\\Git\\CryptoÐ\\wwwroot\\app.css",
+      "Id": "C:\\GIT\\Crypto-Click\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\Git\\CryptoÐ\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\GIT\\Crypto-Click\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Git\\CryptoÐ\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\GIT\\Crypto-Click\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Git\\CryptoÐ\\wwwroot\\favicon.png",
+      "Id": "C:\\GIT\\Crypto-Click\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {

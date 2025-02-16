@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Git\\Crypto\u00D0\\",
+  "WorkspaceRootPath": "C:\\GIT\\Crypto-Click\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F64AABD-3229-4AA6-A56B-5A2021D732B8}|Crypto\u00D0.csproj|c:\\git\\crypto\u00F0\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{6F64AABD-3229-4AA6-A56B-5A2021D732B8}|Crypto\u00D0.csproj|c:\\git\\crypto-click\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6F64AABD-3229-4AA6-A56B-5A2021D732B8}|Crypto\u00D0.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F64AABD-3229-4AA6-A56B-5A2021D732B8}|Crypto\u00D0.csproj|c:\\git\\crypto\u00F0\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{6F64AABD-3229-4AA6-A56B-5A2021D732B8}|Crypto\u00D0.csproj|c:\\git\\crypto-click\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6F64AABD-3229-4AA6-A56B-5A2021D732B8}|Crypto\u00D0.csproj|solutionrelative:components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F64AABD-3229-4AA6-A56B-5A2021D732B8}|Crypto\u00D0.csproj|c:\\git\\crypto\u00F0\\components\\pages\\component.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{6F64AABD-3229-4AA6-A56B-5A2021D732B8}|Crypto\u00D0.csproj|c:\\git\\crypto-click\\components\\pages\\component.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6F64AABD-3229-4AA6-A56B-5A2021D732B8}|Crypto\u00D0.csproj|solutionrelative:components\\pages\\component.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F64AABD-3229-4AA6-A56B-5A2021D732B8}|Crypto\u00D0.csproj|c:\\git\\crypto\u00F0\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{6F64AABD-3229-4AA6-A56B-5A2021D732B8}|Crypto\u00D0.csproj|c:\\git\\crypto-click\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6F64AABD-3229-4AA6-A56B-5A2021D732B8}|Crypto\u00D0.csproj|solutionrelative:components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -36,48 +36,45 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Weather.razor",
-              "DocumentMoniker": "C:\\Git\\Crypto\u00D0\\Components\\Pages\\Weather.razor",
+              "DocumentMoniker": "C:\\GIT\\Crypto-Click\\Components\\Pages\\Weather.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Weather.razor",
-              "ToolTip": "C:\\Git\\Crypto\u00D0\\Components\\Pages\\Weather.razor",
+              "ToolTip": "C:\\GIT\\Crypto-Click\\Components\\Pages\\Weather.razor",
               "RelativeToolTip": "Components\\Pages\\Weather.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-28T20:14:08.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-28T20:14:08.283Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Component.razor",
-              "DocumentMoniker": "C:\\Git\\Crypto\u00D0\\Components\\Pages\\Component.razor",
+              "DocumentMoniker": "C:\\GIT\\Crypto-Click\\Components\\Pages\\Component.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Component.razor",
-              "ToolTip": "C:\\Git\\Crypto\u00D0\\Components\\Pages\\Component.razor",
+              "ToolTip": "C:\\GIT\\Crypto-Click\\Components\\Pages\\Component.razor",
               "RelativeToolTip": "Components\\Pages\\Component.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-27T21:15:44.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T21:15:44.866Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Counter.razor",
-              "DocumentMoniker": "C:\\Git\\Crypto\u00D0\\Components\\Pages\\Counter.razor",
+              "DocumentMoniker": "C:\\GIT\\Crypto-Click\\Components\\Pages\\Counter.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Counter.razor",
-              "ToolTip": "C:\\Git\\Crypto\u00D0\\Components\\Pages\\Counter.razor",
+              "ToolTip": "C:\\GIT\\Crypto-Click\\Components\\Pages\\Counter.razor",
               "RelativeToolTip": "Components\\Pages\\Counter.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAIIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-27T20:31:04.363Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-27T20:31:04.363Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Git\\Crypto\u00D0\\Components\\Pages\\Home.razor",
+              "DocumentMoniker": "C:\\GIT\\Crypto-Click\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
-              "ToolTip": "C:\\Git\\Crypto\u00D0\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\GIT\\Crypto-Click\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "Components\\Pages\\Home.razor",
               "ViewState": "AgIAACIAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
