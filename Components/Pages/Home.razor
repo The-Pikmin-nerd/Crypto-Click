@@ -39,17 +39,22 @@
 
     void buy()
     {
-        DPS++;
+        int cost = 10;
+
+        if (currentCount < cost)
+            return; // pas assez de Ðoge, achat refusé
+
+
 
         if (!isDPSRunning)
         {
             isDPSRunning = true;
-            _ = StartDPSLoop(); // lance en tâche de fond
+            _ = StartDPSLoop(); // démarre la boucle une seule fois
         }
-
-        // Déduit le coût
-        for (int i = 0; i < 10; i++) currentCount--;
+        DPS++;
+        currentCount -= cost;
     }
+
 
     
    
@@ -150,7 +155,7 @@
 <div class="card">
 
     <div class="card-info">
-        <p class="text-title">Old Computer</p>
+        <p class="text-title">Rizzen 3 1200</p>
         <p class="text-body">1 Ð/s </p>
     </div>
     <div class="card-footer">
