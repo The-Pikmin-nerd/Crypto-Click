@@ -25,30 +25,32 @@
     {
         currentCount++;  // Incrémenter le compteur local
     }
+    bool isDPSRunning = false; // flag pour contrôler la boucle
+
     async Task StartDPSLoop()
     {
         while (true)
         {
             currentCount += DPS;
-            await Task.Delay(1000); // 1 seconde sans bloquer
+            StateHasChanged(); // met à jour l’UI
+            await Task.Delay(1000); // 1 seconde
         }
     }
+
     void buy()
     {
         DPS++;
-        StartDPSLoop();
-        currentCount--;
-        currentCount--;
-        currentCount--;
-        currentCount--;
-        currentCount--; currentCount--;
-        currentCount--;
-        currentCount--;
-        currentCount--;
-        currentCount--;
-       
 
+        if (!isDPSRunning)
+        {
+            isDPSRunning = true;
+            _ = StartDPSLoop(); // lance en tâche de fond
+        }
+
+        // Déduit le coût
+        for (int i = 0; i < 10; i++) currentCount--;
     }
+
     
    
 }
@@ -169,7 +171,7 @@
     public record UserMiner(Miner miner, int quantity);
     List<UserMiner> userMiners = new List<UserMiner>()
     {
-        new UserMiner(new Miner("Carte graphique suspecte", 10, 0.1), 0),
+        new UserMiner(new Miner("Old Compute", 10, 1), 0),
         new UserMiner(new Miner("DogeMiner 1", 50, 0.5), 0),
         new UserMiner(new Miner("DogeMiner 2", 250, 1), 0),
     };
