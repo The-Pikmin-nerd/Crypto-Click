@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GIT\\Crypto-Click\\CryptoÐ.csproj": {}
+    "C:\\.SUS\\Dev\\Crypto-Click\\CryptoÐ.csproj": {}
   },
   "projects": {
-    "C:\\GIT\\Crypto-Click\\CryptoÐ.csproj": {
+    "C:\\.SUS\\Dev\\Crypto-Click\\CryptoÐ.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GIT\\Crypto-Click\\CryptoÐ.csproj",
+        "projectUniqueName": "C:\\.SUS\\Dev\\Crypto-Click\\CryptoÐ.csproj",
         "projectName": "CryptoÐ",
-        "projectPath": "C:\\GIT\\Crypto-Click\\CryptoÐ.csproj",
+        "projectPath": "C:\\.SUS\\Dev\\Crypto-Click\\CryptoÐ.csproj",
         "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
-        "outputPath": "C:\\GIT\\Crypto-Click\\obj\\",
+        "outputPath": "C:\\.SUS\\Dev\\Crypto-Click\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -69,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
