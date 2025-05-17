@@ -1,91 +1,212 @@
-﻿@page "/"
+﻿@page "/"  
 
-@rendermode InteractiveServer
-
-
-<PageTitle>Home</PageTitle>
-<p role="status">Doge Wallet: @currentCount</p>
-<p role="status">Doge Per Click: 1 </p>
-<p role="status">@DPS Ð/s</p>
-<div>
-    <button class="button"@onclick="IncrementCount">
-        <img src="https://raw.githubusercontent.com/The-Pikmin-nerd/Media/4a531a339684877ec9300223ba7ccc8977d412d5/pickaxe-svgrepo-com.svg"
-        alt="icon"                         
-        height="128"
-        width="128"
-        style="vertical-align: middle; marg in-right: 64px;" />
-        
-    </button>
-</div>
-<h1>                                                                                                                                                                               </h1>
-<Component />
-@code {
-    int DPS = 0;
-    int currentCount = 0;
-    private async Task IncrementCount()
-    {
-        currentCount++;  // Incrémenter le compteur local
-    }
-    bool isDPSRunning = false; // flag pour contrôler la boucle
-
-    async Task StartDPSLoop()
-    {
-        while (true)
-        {
-            currentCount += DPS;
-            StateHasChanged(); // met à jour l’UI
-            await Task.Delay(1000); // 1 seconde
-        }
-    }
-
-    void buy()
-    {
-        int cost = 10;
-
-        if (currentCount < cost)
-            return; // pas assez de Ðoge, achat refusé
+@rendermode InteractiveServer  
 
 
+<PageTitle>Game</PageTitle>  
 
-        if (!isDPSRunning)
-        {
-            isDPSRunning = true;
-            _ = StartDPSLoop(); // démarre la boucle une seule fois
-        }
-        DPS++;
-        currentCount -= cost;
-    }
+<h1>                                                                                                                                                                               </h1>  
+<Component />  
+@code {  
+   int DPS = 0;  
+   int currentCount = 0;  
+   bool isDPSRunning = false;  
 
+   public record Miner(string name, int price, double revenue);  
+   public class UserMiner  
+   {  
+       public Miner miner { get; init; }  
+       public int quantity { get; private set; }  
 
-    
-   
+       public UserMiner(Miner miner, int quantity)  
+       {  
+           this.miner = miner;  
+           this.quantity = quantity;  
+       }  
+
+       public void IncrementQuantity()  
+       {  
+           quantity++;  
+       }  
+   }  
+
+    List<UserMiner> userMiners = new List<UserMiner>()
+{
+    new UserMiner(new Miner("Rizzen 3", 10, 1), 0),
+    new UserMiner(new Miner("DogeMiner 1", 50, 3), 0),
+    new UserMiner(new Miner("DogeMiner 2", 150, 7), 0),
+    new UserMiner(new Miner("GPU Turbo 7", 1000, 25), 0),
+    new UserMiner(new Miner("Mining Rig X", 5000, 50), 0),
+    new UserMiner(new Miner("Doge Lazer", 20000, 150), 0),
+    new UserMiner(new Miner("Quantum Doge Core", 80000, 500), 0),
+    new UserMiner(new Miner("Blockchain Reactor", 250000, 1500), 0),
+    new UserMiner(new Miner("Lunar Miner", 1000000, 5000), 0),
+    new UserMiner(new Miner("Solar Doge Ray", 5000000, 15000), 0),
+    new UserMiner(new Miner("Galaxy Rig", 20000000, 50000), 0),
+    new UserMiner(new Miner("Time Distorter", 90000000, 200000), 0),
+    new UserMiner(new Miner("Doge AI Miner", 350000000, 800000), 0),
+    new UserMiner(new Miner("Multiverse Splitter", 999999999, 5000000), 0),
+};
+
+  private async Task IncrementCount()
+{
+    currentCount++;
+    await Sauvegarder();
 }
 
 
-<script>
-    // Fonction pour sauvegarder un cookie
-    function setCookie(name, value, days) {
-        let expires = "";
-        if (days) {
-            const date = new Date();
-            date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
-            expires = "; expires=" + date.toUTCString();
+   async Task StartDPSLoop()  
+   {  
+       while (true)  
+       {  
+           currentCount += DPS;  
+           StateHasChanged();  
+           await Task.Delay(1000);  
+       }  
+   }  
+
+    async void AcheterMiner(UserMiner userMiner)
+    {
+        var miner = userMiner.miner;
+        int prix = (int)(miner.price * Math.Pow(1.15, userMiner.quantity));
+
+        if (currentCount >= prix)
+        {
+            currentCount -= prix;
+            userMiner.IncrementQuantity();
+
+            DPS += (int)miner.revenue;
+
+            if (!isDPSRunning)
+            {
+                isDPSRunning = true;
+                _ = StartDPSLoop();
+            }
+
+            await Sauvegarder();
         }
-        document.cookie = name + "=" + (value || "") + expires + "; path=/";
+
+    }
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await ChargerSauvegarde();
+        }
     }
 
-    // Fonction pour récupérer un cookie
-    function getCookie(name) {
-        const nameEQ = name + "=";
-        const cookies = document.cookie.split(';');
-        for (let i = 0; i < cookies.length; i++) {
-            let c = cookies[i];
-            while (c.charAt(0) == ' ') c = c.substring(1, c.length);
-            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
-        }
-        return null;
+    private async Task Sauvegarder()
+    {
+        await JS.InvokeVoidAsync("localStorage.setItem", "doge_wallet", currentCount);
+        await JS.InvokeVoidAsync("localStorage.setItem", "doge_dps", DPS);
+
+        var quantités = userMiners.Select(um => um.quantity).ToList();
+        var json = System.Text.Json.JsonSerializer.Serialize(quantités);
+        await JS.InvokeVoidAsync("localStorage.setItem", "doge_miners", json);
     }
-</script>
+    private async Task ChargerSauvegarde()
+       {
+           var savedCount = await JS.InvokeAsync<string>("localStorage.getItem", "doge_wallet");
+           var savedDps = await JS.InvokeAsync<string>("localStorage.getItem", "doge_dps");
+           var savedQuantites = await JS.InvokeAsync<string>("localStorage.getItem", "doge_miners");
+
+           if (int.TryParse(savedCount, out var count))
+               currentCount = count;
+
+           if (int.TryParse(savedDps, out var dps))
+               DPS = dps;
+
+           if (!string.IsNullOrEmpty(savedQuantites))
+           {
+               var quantités = System.Text.Json.JsonSerializer.Deserialize<List<int>>(savedQuantites);
+               for (int i = 0; i < userMiners.Count && i < quantités.Count; i++)
+               {
+                   userMiners[i] = new UserMiner(userMiners[i].miner, quantités[i]);
+               }
+           }
+
+           if (DPS > 0 && !isDPSRunning)
+           {
+               isDPSRunning = true;
+               _ = StartDPSLoop();
+           }
+
+           StateHasChanged();
+       }
+
+}  
+<style>
+    .main-layout {
+        display: flex;
+        flex-direction: row;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .left-panel {
+        flex: 2;
+        padding: 24px;
+        background: #f0f0f0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 24px;
+    }
+
+    .right-panel {
+        flex: 1;
+        background: #e6e6e6;
+        overflow-y: auto;
+        padding: 16px;
+        border-left: 2px solid #ccc;
+    }
+
+    .card {
+        margin-bottom: 16px;
+    }
+</style>
+@foreach (var userMiner in userMiners)  
+{
+    <div class="main-layout">
+        <div class="left-panel">
+            <p role="status">Doge Wallet: @currentCount</p>
+            <p role="status">Doge Par Clic: 1 </p>
+            <p role="status">Production: @DPS Ð/s</p>
+
+            <button class="button" @onclick="IncrementCount">
+                <img src="https://raw.githubusercontent.com/The-Pikmin-nerd/Media/4a531a339684877ec9300223ba7ccc8977d412d5/pickaxe-svgrepo-com.svg"
+                     alt="icon"
+                     height="128"
+                     width="128"
+                     style="vertical-align: middle; margin-right: 64px;" />
+            </button>
+        </div>
+
+        <div class="right-panel">
+            @foreach (var userMiner_cool in userMiners)
+            {
+                <div class="card">
+                    <div class="card-info">
+                        <p class="text-title">@userMiner.miner.name</p>
+                        <p class="text-body">@userMiner.miner.revenue Ð/s | Possédé : @userMiner.quantity</p>
+                    </div>
+                    <div class="card-footer">
+                        <span class="text-title">@((int)(userMiner.miner.price * Math.Pow(1.15, userMiner.quantity))) Ð</span>
+                        <div class="card-button" @onclick="@(() => AcheterMiner(userMiner))">
+                            <svg class="svg-icon" viewBox="0 0 20 20">
+                                <!-- icône ici -->
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+
+}  
+
 <style>
     .card {
         width: 190px;
@@ -97,7 +218,6 @@
         box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     }
 
-    
     .card-info {
         padding-top: 10%;
     }
@@ -138,41 +258,9 @@
         transition: .3s ease-in-out;
     }
 
-
-    .card-button:hover {
+        .card-button:hover {
             border: 1px solid #ffe133;
             background-color: #F57F17;
-    }
+        }
 </style>
 <!-- From Uiverse.io by alexruix -->
-<div class="card">
-
-    <div class="card-info">
-        <p class="text-title">Rizzen 3 1200</p>
-        <p class="text-body">1 Ð/s </p>
-    </div>
-    <div class="card-footer">
-        <span class="text-title">10 Ð </span>
-        <div class="card-button" @onclick="buy">
-            <svg class="svg-icon" viewBox="0 0 20 20">
-                <path d="M17.72,5.011H8.026c-0.271,0-0.49,0.219-0.49,0.489c0,0.271,0.219,0.489,0.49,0.489h8.962l-1.979,4.773H6.763L4.935,5.343C4.926,5.316,4.897,5.309,4.884,5.286c-0.011-0.024,0-0.051-0.017-0.074C4.833,5.166,4.025,4.081,2.33,3.908C2.068,3.883,1.822,4.075,1.795,4.344C1.767,4.612,1.962,4.853,2.231,4.88c1.143,0.118,1.703,0.738,1.808,0.866l1.91,5.661c0.066,0.199,0.252,0.333,0.463,0.333h8.924c0.116,0,0.22-0.053,0.308-0.128c0.027-0.023,0.042-0.048,0.063-0.076c0.026-0.034,0.063-0.058,0.08-0.099l2.384-5.75c0.062-0.151,0.046-0.323-0.045-0.458C18.036,5.092,17.883,5.011,17.72,5.011z"></path>
-                <path d="M8.251,12.386c-1.023,0-1.856,0.834-1.856,1.856s0.833,1.853,1.856,1.853c1.021,0,1.853-0.83,1.853-1.853S9.273,12.386,8.251,12.386z M8.251,15.116c-0.484,0-0.877-0.393-0.877-0.874c0-0.484,0.394-0.878,0.877-0.878c0.482,0,0.875,0.394,0.875,0.878C9.126,14.724,8.733,15.116,8.251,15.116z"></path>
-                <path d="M13.972,12.386c-1.022,0-1.855,0.834-1.855,1.856s0.833,1.853,1.855,1.853s1.854-0.83,1.854-1.853S14.994,12.386,13.972,12.386z M13.972,15.116c-0.484,0-0.878-0.393-0.878-0.874c0-0.484,0.394-0.878,0.878-0.878c0.482,0,0.875,0.394,0.875,0.878C14.847,14.724,14.454,15.116,13.972,15.116z"></path>
-            </svg>
-        </div>
-    </div>
-</div>
-
-
-@code {
-    public record Miner(string name, int price, double revenue);
-    public record UserMiner(Miner miner, int quantity);
-    List<UserMiner> userMiners = new List<UserMiner>()
-    {
-        new UserMiner(new Miner("Old Compute", 10, 1), 0),
-        new UserMiner(new Miner("DogeMiner 1", 50, 0.5), 0),
-        new UserMiner(new Miner("DogeMiner 2", 250, 1), 0),
-    };
-
-
-}

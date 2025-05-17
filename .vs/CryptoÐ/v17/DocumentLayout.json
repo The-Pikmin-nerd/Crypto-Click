@@ -1,21 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\.SUS\\Dev\\Crypto-Click\\",
+  "WorkspaceRootPath": "D:\\.SUS\\Dev\\Crypto-Click\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F64AABD-3229-4AA6-A56B-5A2021D732B8}|Crypto\u00D0.csproj|c:\\.sus\\dev\\crypto-click\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{6F64AABD-3229-4AA6-A56B-5A2021D732B8}|Crypto\u00D0.csproj|d:\\.sus\\dev\\crypto-click\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6F64AABD-3229-4AA6-A56B-5A2021D732B8}|Crypto\u00D0.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F64AABD-3229-4AA6-A56B-5A2021D732B8}|Crypto\u00D0.csproj|c:\\.sus\\dev\\crypto-click\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6F64AABD-3229-4AA6-A56B-5A2021D732B8}|Crypto\u00D0.csproj|solutionrelative:components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6F64AABD-3229-4AA6-A56B-5A2021D732B8}|Crypto\u00D0.csproj|d:\\.sus\\dev\\crypto-click\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F64AABD-3229-4AA6-A56B-5A2021D732B8}|Crypto\u00D0.csproj|solutionrelative:components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F64AABD-3229-4AA6-A56B-5A2021D732B8}|Crypto\u00D0.csproj|c:\\.sus\\dev\\crypto-click\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{6F64AABD-3229-4AA6-A56B-5A2021D732B8}|Crypto\u00D0.csproj|d:\\.sus\\dev\\crypto-click\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6F64AABD-3229-4AA6-A56B-5A2021D732B8}|Crypto\u00D0.csproj|solutionrelative:components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F64AABD-3229-4AA6-A56B-5A2021D732B8}|Crypto\u00D0.csproj|c:\\.sus\\dev\\crypto-click\\components\\pages\\component.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{6F64AABD-3229-4AA6-A56B-5A2021D732B8}|Crypto\u00D0.csproj|d:\\.sus\\dev\\crypto-click\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F64AABD-3229-4AA6-A56B-5A2021D732B8}|Crypto\u00D0.csproj|solutionrelative:components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F64AABD-3229-4AA6-A56B-5A2021D732B8}|Crypto\u00D0.csproj|d:\\.sus\\dev\\crypto-click\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F64AABD-3229-4AA6-A56B-5A2021D732B8}|Crypto\u00D0.csproj|solutionrelative:components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F64AABD-3229-4AA6-A56B-5A2021D732B8}|Crypto\u00D0.csproj|d:\\.sus\\dev\\crypto-click\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F64AABD-3229-4AA6-A56B-5A2021D732B8}|Crypto\u00D0.csproj|solutionrelative:components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F64AABD-3229-4AA6-A56B-5A2021D732B8}|Crypto\u00D0.csproj|d:\\.sus\\dev\\crypto-click\\components\\pages\\component.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6F64AABD-3229-4AA6-A56B-5A2021D732B8}|Crypto\u00D0.csproj|solutionrelative:components\\pages\\component.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -26,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,49 +46,91 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\.SUS\\Dev\\Crypto-Click\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\.SUS\\Dev\\Crypto-Click\\Components\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAOAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\.SUS\\Dev\\Crypto-Click\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "Components\\_Imports.razor",
+              "ToolTip": "D:\\.SUS\\Dev\\Crypto-Click\\Components\\_Imports.razor",
+              "RelativeToolTip": "Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-18T12:27:23.605Z"
+              "WhenOpened": "2025-05-17T14:33:10.107Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Weather.razor",
-              "DocumentMoniker": "C:\\.SUS\\Dev\\Crypto-Click\\Components\\Pages\\Weather.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Weather.razor",
-              "ToolTip": "C:\\.SUS\\Dev\\Crypto-Click\\Components\\Pages\\Weather.razor",
-              "RelativeToolTip": "Components\\Pages\\Weather.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Error.razor",
+              "DocumentMoniker": "D:\\.SUS\\Dev\\Crypto-Click\\Components\\Pages\\Error.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Error.razor",
+              "ToolTip": "D:\\.SUS\\Dev\\Crypto-Click\\Components\\Pages\\Error.razor",
+              "RelativeToolTip": "Components\\Pages\\Error.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-28T20:14:08.283Z"
+              "WhenOpened": "2025-05-17T14:32:47.551Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Component.razor",
-              "DocumentMoniker": "C:\\.SUS\\Dev\\Crypto-Click\\Components\\Pages\\Component.razor",
-              "RelativeDocumentMoniker": "Components\\Pages\\Component.razor",
-              "ToolTip": "C:\\.SUS\\Dev\\Crypto-Click\\Components\\Pages\\Component.razor",
-              "RelativeToolTip": "Components\\Pages\\Component.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\.SUS\\Dev\\Crypto-Click\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor",
+              "ToolTip": "D:\\.SUS\\Dev\\Crypto-Click\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-27T21:15:44.866Z"
+              "WhenOpened": "2025-05-09T15:13:12.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\.SUS\\Dev\\Crypto-Click\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
+              "ToolTip": "D:\\.SUS\\Dev\\Crypto-Click\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-18T12:27:23.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "D:\\.SUS\\Dev\\Crypto-Click\\Components\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Weather.razor",
+              "ToolTip": "D:\\.SUS\\Dev\\Crypto-Click\\Components\\Pages\\Weather.razor",
+              "RelativeToolTip": "Components\\Pages\\Weather.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-28T20:14:08.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Component.razor",
+              "DocumentMoniker": "D:\\.SUS\\Dev\\Crypto-Click\\Components\\Pages\\Component.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Component.razor",
+              "ToolTip": "D:\\.SUS\\Dev\\Crypto-Click\\Components\\Pages\\Component.razor",
+              "RelativeToolTip": "Components\\Pages\\Component.razor",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-27T21:15:44.866Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Home.razor",
-              "DocumentMoniker": "C:\\.SUS\\Dev\\Crypto-Click\\Components\\Pages\\Home.razor",
+              "DocumentMoniker": "D:\\.SUS\\Dev\\Crypto-Click\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
-              "ToolTip": "C:\\.SUS\\Dev\\Crypto-Click\\Components\\Pages\\Home.razor",
-              "RelativeToolTip": "Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
+              "ToolTip": "D:\\.SUS\\Dev\\Crypto-Click\\Components\\Pages\\Home.razor*",
+              "RelativeToolTip": "Components\\Pages\\Home.razor*",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAowAoBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-27T20:31:06.375Z",
               "EditorCaption": ""

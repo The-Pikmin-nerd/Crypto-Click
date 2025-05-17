@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TnXY1zFqv8KatDTKQgeRlGdT5xLP407Q7rpx+g73bE4=",
+  "Hash": "bS730VtkgZOobvPMZk/+rlALW0Isg5/a1eTLJCdjyEk=",
   "Source": "CryptoÐ",
   "BasePath": "_content/CryptoÐ",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "CryptoÐ\\wwwroot",
       "Source": "CryptoÐ",
-      "ContentRoot": "C:\\.SUS\\Dev\\Crypto-Click\\wwwroot\\",
+      "ContentRoot": "D:\\.SUS\\Dev\\Crypto-Click\\wwwroot\\",
       "BasePath": "_content/CryptoÐ",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\.SUS\\Dev\\Crypto-Click\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CryptoÐ.styles.css",
+      "Identity": "D:\\.SUS\\Dev\\Crypto-Click\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CryptoÐ.styles.css",
       "SourceId": "CryptoÐ",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\.SUS\\Dev\\Crypto-Click\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\.SUS\\Dev\\Crypto-Click\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/CryptoÐ",
       "RelativePath": "CryptoÐ#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "cIrr6B5EnmacZ+sc1waGDnZ9Xyd/4n0dEvfoQaMlvMc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\.SUS\\Dev\\Crypto-Click\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CryptoÐ.styles.css"
+      "OriginalItemSpec": "D:\\.SUS\\Dev\\Crypto-Click\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CryptoÐ.styles.css"
     },
     {
-      "Identity": "C:\\.SUS\\Dev\\Crypto-Click\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CryptoÐ.bundle.scp.css",
+      "Identity": "D:\\.SUS\\Dev\\Crypto-Click\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CryptoÐ.bundle.scp.css",
       "SourceId": "CryptoÐ",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\.SUS\\Dev\\Crypto-Click\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\.SUS\\Dev\\Crypto-Click\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/CryptoÐ",
       "RelativePath": "CryptoÐ#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "cIrr6B5EnmacZ+sc1waGDnZ9Xyd/4n0dEvfoQaMlvMc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\.SUS\\Dev\\Crypto-Click\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CryptoÐ.bundle.scp.css"
+      "OriginalItemSpec": "D:\\.SUS\\Dev\\Crypto-Click\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CryptoÐ.bundle.scp.css"
     },
     {
-      "Identity": "C:\\.SUS\\Dev\\Crypto-Click\\wwwroot\\app.css",
+      "Identity": "D:\\.SUS\\Dev\\Crypto-Click\\wwwroot\\app.css",
       "SourceId": "CryptoÐ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\.SUS\\Dev\\Crypto-Click\\wwwroot\\",
+      "ContentRoot": "D:\\.SUS\\Dev\\Crypto-Click\\wwwroot\\",
       "BasePath": "_content/CryptoÐ",
       "RelativePath": "app#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\.SUS\\Dev\\Crypto-Click\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "D:\\.SUS\\Dev\\Crypto-Click\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "CryptoÐ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\.SUS\\Dev\\Crypto-Click\\wwwroot\\",
+      "ContentRoot": "D:\\.SUS\\Dev\\Crypto-Click\\wwwroot\\",
       "BasePath": "_content/CryptoÐ",
       "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\.SUS\\Dev\\Crypto-Click\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "D:\\.SUS\\Dev\\Crypto-Click\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "CryptoÐ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\.SUS\\Dev\\Crypto-Click\\wwwroot\\",
+      "ContentRoot": "D:\\.SUS\\Dev\\Crypto-Click\\wwwroot\\",
       "BasePath": "_content/CryptoÐ",
       "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\.SUS\\Dev\\Crypto-Click\\wwwroot\\favicon.png",
+      "Identity": "D:\\.SUS\\Dev\\Crypto-Click\\wwwroot\\favicon.png",
       "SourceId": "CryptoÐ",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\.SUS\\Dev\\Crypto-Click\\wwwroot\\",
+      "ContentRoot": "D:\\.SUS\\Dev\\Crypto-Click\\wwwroot\\",
       "BasePath": "_content/CryptoÐ",
       "RelativePath": "favicon#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -146,7 +146,7 @@
   "Endpoints": [
     {
       "Route": "app.css",
-      "AssetFile": "C:\\.SUS\\Dev\\Crypto-Click\\wwwroot\\app.css",
+      "AssetFile": "D:\\.SUS\\Dev\\Crypto-Click\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -183,7 +183,7 @@
     },
     {
       "Route": "app.da95v2qkru.css",
-      "AssetFile": "C:\\.SUS\\Dev\\Crypto-Click\\wwwroot\\app.css",
+      "AssetFile": "D:\\.SUS\\Dev\\Crypto-Click\\wwwroot\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -228,7 +228,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css",
-      "AssetFile": "C:\\.SUS\\Dev\\Crypto-Click\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "D:\\.SUS\\Dev\\Crypto-Click\\wwwroot\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -265,7 +265,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.map",
-      "AssetFile": "C:\\.SUS\\Dev\\Crypto-Click\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "D:\\.SUS\\Dev\\Crypto-Click\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -302,7 +302,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.css.omg9jqlriq.map",
-      "AssetFile": "C:\\.SUS\\Dev\\Crypto-Click\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "D:\\.SUS\\Dev\\Crypto-Click\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -347,7 +347,7 @@
     },
     {
       "Route": "bootstrap/bootstrap.min.o1dcgte8mm.css",
-      "AssetFile": "C:\\.SUS\\Dev\\Crypto-Click\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "D:\\.SUS\\Dev\\Crypto-Click\\wwwroot\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -392,7 +392,7 @@
     },
     {
       "Route": "CryptoÐ.bundle.scp.css",
-      "AssetFile": "C:\\.SUS\\Dev\\Crypto-Click\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CryptoÐ.bundle.scp.css",
+      "AssetFile": "D:\\.SUS\\Dev\\Crypto-Click\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CryptoÐ.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -429,7 +429,7 @@
     },
     {
       "Route": "CryptoÐ.chq27n2xei.bundle.scp.css",
-      "AssetFile": "C:\\.SUS\\Dev\\Crypto-Click\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CryptoÐ.bundle.scp.css",
+      "AssetFile": "D:\\.SUS\\Dev\\Crypto-Click\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CryptoÐ.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -474,7 +474,7 @@
     },
     {
       "Route": "CryptoÐ.chq27n2xei.styles.css",
-      "AssetFile": "C:\\.SUS\\Dev\\Crypto-Click\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CryptoÐ.styles.css",
+      "AssetFile": "D:\\.SUS\\Dev\\Crypto-Click\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CryptoÐ.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -519,7 +519,7 @@
     },
     {
       "Route": "CryptoÐ.styles.css",
-      "AssetFile": "C:\\.SUS\\Dev\\Crypto-Click\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CryptoÐ.styles.css",
+      "AssetFile": "D:\\.SUS\\Dev\\Crypto-Click\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CryptoÐ.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -556,7 +556,7 @@
     },
     {
       "Route": "favicon.ifv42okdf2.png",
-      "AssetFile": "C:\\.SUS\\Dev\\Crypto-Click\\wwwroot\\favicon.png",
+      "AssetFile": "D:\\.SUS\\Dev\\Crypto-Click\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -601,7 +601,7 @@
     },
     {
       "Route": "favicon.png",
-      "AssetFile": "C:\\.SUS\\Dev\\Crypto-Click\\wwwroot\\favicon.png",
+      "AssetFile": "D:\\.SUS\\Dev\\Crypto-Click\\wwwroot\\favicon.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
